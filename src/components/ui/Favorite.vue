@@ -4,11 +4,14 @@
     :class="{ 'icon-border': iconBorder }"
     :style="`background-color: ${backgroundColor}`"
   >
-    <img :src="`/src/assets/icon/${getStatusIcon}.png`" alt="favorite icon" />
+    <img :src="getStatusIcon" alt="favorite icon" />
   </div>
 </template>
 
 <script>
+import starOn from "../../assets/icon/starOn.png";
+import starOff from "../../assets/icon/starOff.png";
+
 export default {
   name: "Favorite",
   props: {
@@ -18,7 +21,7 @@ export default {
   },
   computed: {
     getStatusIcon() {
-      return this.status ? "starOn" : "starOff";
+      return this.status ? starOn : starOff;
     },
   },
 };
