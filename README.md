@@ -4,6 +4,8 @@ Este es un proyecto básico usando la [api](https://rickandmortyapi.com/document
 
 Con la finalidad de mantener el proyecto con la mínima cantidad de dependencias, todos los estilos fueron creados desde cero usando CSS y para el caso del consumo de la api, se usó Fetch.
 
+[Ver proyecto en vivo](https://imaginative-piroshki-5bcf8e.netlify.app/welcome)
+
 
 ## Configuración del proyecto
 
